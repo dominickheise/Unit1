@@ -1,31 +1,22 @@
 package app;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception{
    
-    boolean AmIAtHome = true;
-    byte MultipleOf8 = 72;
-    char FirstLetterOfStateILiveIn = 'M';
-    short HeadsetBatteryLifeMin = 960;
-    int PopulationOfChina = 1439323776;
-    long ObservableStars = 100000000000L;
-    float DistanceLightYearsTOCLosestStar = 4.22F;
-    double RandomNumber = 4.6582415671295364D;
-    System.out.println("Am I at home");
-    System.out.println(AmIAtHome);
-    System.out.println("First letter of home state");
-    System.out.println(FirstLetterOfStateILiveIn);
-    System.out.println("Multiple of 8");
-    System.out.println(MultipleOf8);
-    System.out.println("Battery life of headset in minutes");
-    System.out.println(HeadsetBatteryLifeMin);
-    System.out.println("Population of China");
-    System.out.println(PopulationOfChina);
-    System.out.println("Number of observable stars");
-    System.out.println(ObservableStars);
-    System.out.println("Distance in light years to closest star");
-    System.out.println(DistanceLightYearsTOCLosestStar);
-    System.out.println("Random number");
-    System.out.println(RandomNumber);        
-    }
+    String person1 = "Yuri";
+    String person2 = "Erika";
+    String verb1 = "Run";
+    String verb2 = "Jump";
+    String verb3 = "Hide";
+    String food = "Ramen";
+    String dayOfWeek = "Monday";
+    String place1 = "Seoul";
+    String place2 = "Moscow";
+    String adjective1 = "Red";
+    String adjective2 = "Burnt";
+       
+    System.out.println(person1 + "is a pogrammer who likes to " + verb1);
+    System.out.println("Every " + dayOfWeek + " they make a " + adjective1 + food + " for breakfeast and " + verb2 + " at " + place1 + " with " + person2);
+    System.out.println("Sometimes, they go to the " + adjective2 + " " + place2 + " with " + person2 + " so that thr can " + verb3 + " together");
+}
 }
