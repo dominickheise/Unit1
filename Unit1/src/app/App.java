@@ -17,9 +17,11 @@ for (int i = 3; i >= -81; i = i *-i) {
 for (int i = 50; i >= 5; i = i -5){
     System.out.println(i);
 }
-int [] intArray = {1, 4, 1, 4, 5, 2, 9, 6, 3, 16, 7, 4, 25, 8, 5, 36, 9, 6, 49, 10, 7, 64, 11, 8, 81, 12, 9};
-    for(int i=0; i<intArray.length; i++) {
-      System.out.println(intArray[i]);
-    }
+for (int i = 1; i <= 9; i = i +1){
+    System.out.println(i * i);
+    System.out.println(i + 3);
+    System.out.println(i);
+}
+    
 }
 }
