@@ -5,23 +5,15 @@ import javax.net.ssl.SSLKeyException;
 public class App {
     public static void main(String[] args) throws Exception{
    
-  for (int i = 22; i <= 28; i = i +3){
-      System.out.println(i);
-}
-for (int i = 2; i <= 32; i = i *2){
-    System.out.println(i);
-}
-for (int i = 3; i >= -81; i = i *-i) {
-     System.out.println(+ i);
-}
-for (int i = 50; i >= 5; i = i -5){
-    System.out.println(i);
-}
-for (int i = 1; i <= 9; i = i +1){
-    System.out.println(i * i);
-    System.out.println(i + 3);
-    System.out.println(i);
-}
+  for (int x = 1; x <= 20; x++){
+      if (x % 4 ==0){
+          System.out.println(x + " is divisible by 4");
+      }
+      else {
+          System.out.println(x + " is not divisible by 4");
+      }
+  }
+
     
 }
 }
