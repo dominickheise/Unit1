@@ -3,28 +3,24 @@ package app;
 import javax.net.ssl.SSLKeyException;
 
 public class App {
-    public static void main(String[] args) throws Exception{
-   System.out.println("Start first loop");
-   for (int x = 20; x >= 0; x = x - 1){
-       System.out.println(x);
-       if (x == 10) 
-            for (int y = 0; y < 7; y++) 
-       System.out.println(x);
-   }
+    public static void main(String[] args) throws Exception {
+        System.out.println("Double or single digit?");
+        for (int x = 20; x >= 1; x = x - 1) {
+            if (x >= 10)
+                System.out.println(x + " is a double digit");
+            else
+                System.out.println(x + " is a single digit");
+        }
+        System.out.println("Nice!");
+        System.out.println("Fast food");
+        for (int x = 1; x <= 7; x++) {
+            if (x % 2 == 0) {
+                System.out.println("Burgers");
 
+            } else
+                System.out.println("Fries");
+        }
+        System.out.println("Nice!");
 
-   System.out.println("End first loop");
-   System.out.println("Start second loop");
-   for (int x = 4; x <= 36; x = x + 4){
-       System.out.println(x);
-       if (x % 12 == 0){
-           System.out.println("Hey!");
-           
-       }
-   }
-   System.out.println("End second loop");
-
-
-    
-}
+    }
 }
